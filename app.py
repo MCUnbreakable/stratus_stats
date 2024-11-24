@@ -76,7 +76,7 @@ def process_match_data(json_data):
 
 # Streamlit App UI
 st.sidebar.title("🏆 Match Dashboard")
-match_id = st.sidebar.text_input("Enter Match ID:", "7250636141171")
+match_id = st.sidebar.text_input("Enter Match ID:", "Your match id, i.e: 7250636141171")
 
 if st.sidebar.button("Fetch Match Data"):
     # Fetch JSON file
